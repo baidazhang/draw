@@ -1,1 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2023-02-13T02:45:04.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.18" etag="B3bGPIJZy5xP9eiOj_Sy" type="github"><diagram name="第 1 页" id="dlJll-KyPntqw8w00cdX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-13T03:05:05.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-BnUKutZweEjM2BPhJQk" version="20.8.18" type="github">
+  <diagram name="第 1 页" id="dlJll-KyPntqw8w00cdX">
+    <mxGraphModel dx="1195" dy="637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SefKWiMUymct1svDOhbk-2" value="子网掩码&lt;br&gt;" style="swimlane;startSize=40;horizontal=0;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="190" width="520" height="120" as="geometry">
+            <mxRectangle y="20" width="520" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SefKWiMUymct1svDOhbk-11" value="作用： 分辨两个ip是否在统一网段内， 判断改网络可以容纳的机器数&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="SefKWiMUymct1svDOhbk-2">
+          <mxGeometry x="50" y="40" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SefKWiMUymct1svDOhbk-6" value="广播地址" style="swimlane;startSize=40;horizontal=0;html=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="310" width="520" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SefKWiMUymct1svDOhbk-3" value="DNS" style="swimlane;startSize=40;horizontal=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="430" width="520" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SefKWiMUymct1svDOhbk-13" value="作用： 负责域名解析到ip,&lt;br&gt;dns服务器： 国内移动电信联通通用114.114...., 谷歌提供8.8.8.8全球通用&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="SefKWiMUymct1svDOhbk-3">
+          <mxGeometry x="70" y="30" width="410" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SefKWiMUymct1svDOhbk-4" value="网关" style="swimlane;startSize=40;horizontal=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="550" width="520" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SefKWiMUymct1svDOhbk-14" value="作用： 负责与外网链接， 网关的具体体现也是一个ip,&amp;nbsp; 但这个ip具有路由功能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="SefKWiMUymct1svDOhbk-4">
+          <mxGeometry x="50" y="45" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SefKWiMUymct1svDOhbk-12" value="广播地址的计算： 主机位全部变成1即可得广播地址" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="355" width="300" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
